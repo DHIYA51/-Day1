@@ -1,0 +1,34 @@
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Diifernece between http1 and http2 ("Hypertext Transfer Protocol")
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+HTTP1:
+------
+*HTTP1 is a top-level application protocol that exchanges information between a client computer and a local or remote web server. 
+
+*In this process, a client sends a text-based request to a server by calling a method like GET or POST. 
+
+*In response, the server sends a resource like an HTML page back to the client.
+
+*HTTP1 was usually using the Transmission Control Protocol, or TCP) and networking layers (using the Internet Protocol, or IP):
+
+*HTTP1 transfers these in plain-text messages.
+
+*The amount of data to be loaded on a single page increased.
+
+*In HTTP1, The flow control relies on the underlying TCP connection.
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+HTTP2:
+------
+*HTTP2 had invented for reducing web page load latency by using techniques such as compression, multiplexing, and prioritization.
+
+*It supported standardization effort, including Chrome, Opera, Internet Explorer, and Safari.
+
+*Its encodes these into binary, allowing for significantly different delivery model possibilities.
+
+*HTTP2 is always clear and loading faster.
+
+*In HTTP2, The binary framing layer encodes requests/responses and cuts them up into smaller packets of information, greatly increasing the flexibility of data transfer.
+
+*HTTP2 multiplexes streams of data within a single TCP connection.
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------
